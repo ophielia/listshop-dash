@@ -18,9 +18,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(final AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication()
-                .withUser("admin").password(passwordEncoder().encode("admin")).roles("ADMIN")
-                .and()
-                .withUser("user2").password(passwordEncoder().encode("user2Pass")).roles("USER");
+                .withUser("dashdot").password(passwordEncoder().encode("d0tDa5h")).roles("ADMIN");
     }
 
     @Bean
