@@ -10,7 +10,7 @@
     </parent>
     <groupId>meg.tools</groupId>
     <artifactId>actuator-admin</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <name>actuator-admin</name>
     <description>actuator-admin</description>
     <properties>
